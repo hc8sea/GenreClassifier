@@ -1,6 +1,8 @@
 # GenreClassifier
 
-End-to-End Machine Learning Pipeline. Runs on GCP using BigQuery, TFX, Vertex AI and Kubeflow. Deployed through a Docker container on Cloud Run for online predictions.
+End-to-End Machine Learning Pipeline. Runs on GCP using BigQuery, TFX, Vertex AI and Kubeflow. Docker container is supposed to be deployed on Cloud Run for online predictions.
+
+The model is a music genre classifier trained on Spotify Data and the prediction section is still hard-coded for now.
 
 To run this project you're gonna need to follow this steps:
 
